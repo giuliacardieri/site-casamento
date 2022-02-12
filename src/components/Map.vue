@@ -1,7 +1,7 @@
 <template>
   <section class="map">
-    <div class="container">
-      <div v-if="heading || end" class="map__text">
+    <div v-if="heading || end" class="map__text">
+      <div class="container">
         <h2 class="map__h2">{{ heading }}</h2>
         <p class="map__p">{{ end }}</p>
       </div>

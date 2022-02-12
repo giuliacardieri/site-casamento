@@ -4,13 +4,16 @@
       <VInput label="nome"
         name="nome"
         :max-length="50"
+        :reset="sentMessage"
         @updatedField="updateField"
       />
       <VTextarea label="mensagem"
         name="message"
         :max-length="150"
+        :reset="sentMessage"
         @updatedField="updateField"
       />
+      <p class="mensagens-form__p">Ao clicar em enviar, você concorda em deixar sua mensagem pública. Ela será adicionada no mural abaixo instantaneamente. Qualquer problema nos avise!</p>
       <button class="mensagens-form__button"
         type="submit"
         :disabled="this.name && this.message ? false : true"
@@ -19,6 +22,9 @@
         enviar
       </button>
     </form>
+    <p :class="[sentMessage ? 'mensagens-form__sucesso--sucesso' : '' ,'mensagens-form__sucesso']">
+      Oba! Sua mensagem foi adicionada com succeso no mural! 😁
+    </p>
   </section>
 </template>
 
@@ -34,12 +40,15 @@ export default {
   },
   data: function () {
     return {
+      sentMessage: false,
       name: '',
       message: ''
     }
   },
   methods: {
     updateField (data) {
+      this.sentMessage = false
+      this.$emit('submittedContent', false)
       if (data.name === 'nome') {
         this.name = data.value
       } else {
@@ -56,7 +65,10 @@ export default {
             message: this.message
           })
           .then(() => {
-            this.$emit('submittedContent')
+            this.sentMessage = true
+            this.name = ''
+            this.message = ''
+            this.$emit('submittedContent', true)
           })
           .catch(error => (console.log(error)))
       }
@@ -77,6 +89,22 @@ export default {
   gap: 1rem;
 }
 
+.mensagens-form__sucesso {
+  display: none;
+  color: var(--bordo);
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.mensagens-form__sucesso--sucesso {
+  display: block;
+}
+
+.mensagens-form__p {
+  font-size: .9rem;
+  line-height: 1;
+}
+
 .mensagens-form__button {
   align-self: flex-start;
   background-color: var(--bordo);
@@ -85,7 +113,6 @@ export default {
   color: var(--branco);
   font-size: 1rem;
   padding: .5rem 1rem;
-  margin-top: .5rem;
 }
 
 .mensagens-form__button:not(:disabled) {

@@ -13,6 +13,9 @@
       required
       @input="emitData"
     />
+    <p :class="[this.value.length >= this.maxLength ? 'input-group__error--visible' : '', 'input-group__error']">
+      A mensagem é muito grande. Pode diminuir um pouco?
+    </p>
   </div>
 </template>
 
@@ -22,7 +25,13 @@ export default {
   props: {
     label: String,
     name: String,
-    maxLength: Number
+    maxLength: Number,
+    reset: Boolean
+  },
+  watch: {
+    reset () {
+      this.value = ''
+    }
   },
   data: function () {
     return {
@@ -30,8 +39,15 @@ export default {
     }
   },
   methods: {
-    emitData (data) {
-      if (this.value.length && this.value.length < this.maxLength) {
+    emitData () {
+      console.log(this.value.length)
+      if (this.value.length && this.value.length >= this.maxLength) {
+        console.log('too big')
+        this.$emit('updatedField', {
+          name: this.name,
+          value: ''
+        })
+      } else if (this.value.length) {
         this.$emit('updatedField', {
           name: this.name,
           value: this.value
@@ -50,6 +66,15 @@ export default {
 
 .input-group__label {
   font-size: 1rem;
+}
+
+.input-group__error {
+  color: var(--bordo);
+  display: none;
+}
+
+.input-group__error--visible {
+  display: block;
 }
 
 .input-group__input {

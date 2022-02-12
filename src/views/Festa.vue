@@ -18,7 +18,7 @@
     />
     <VSection isPink>
       <h2>O Dia 📅</h2>
-      <p>Nosso casamento será dia 9 de julho de 2022 as 15:15hrs, não se atrase!</p>
+      <p>Nosso casamento será dia 9 de julho de 2022 as 15:30hrs, não se atrase!</p>
       <p>Vamos ter uma cerimônia de casamento durante o dia, e ao anoitecer teremos uma festa com jantar tema italiano (opções com carne e vegetarianas, se você segue alimentação vegana, nos avise por favor), banda, dj e muitas outras coisas legais!</p>
     </VSection>
     <VSection>
@@ -39,6 +39,17 @@ import Map from '@/components/Map.vue'
 
 export default {
   name: 'Festa',
+  metaInfo () {
+    return {
+      title: 'A Festa | Giulia e Gabriel',
+      meta: [
+        {
+          name: 'name',
+          content: 'A Festa | Giulia e Gabriel'
+        }
+      ]
+    }
+  },
   components: {
     Hero,
     VSection,

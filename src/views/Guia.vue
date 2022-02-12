@@ -28,8 +28,15 @@
     </VSection>
     <VSection isPink>
       <h2>Onde ficar? 🏨</h2>
-      <p>Sorocaba tem vários hotéis. Recomendamos ficar na região do Campolim, próximo ao shopping Iguatemi Esplanada. Essa região tem bastante opções de alimentação e hotéis, além de ser pertinho do local da festa.</p>
-      <p>Conseguimos um descontinho em dois hoteis na região do Campolim/Shopping Iguatemi. Que fica a 10 minutos de carro do evento.</p>
+      <p>Sorocaba tem vários hotéis e alguns Airbnb. Recomendamos ficar na região do Campolim, próximo ao shopping Iguatemi Esplanada. Essa região tem várias opções de alimentação e hotéis, além de ser pertinho (10 min de carro) do local da festa.</p>
+      <!-- <p>Conseguimos um descontinho em dois hoteis na região do Campolim/Shopping Iguatemi. Que fica a 10 minutos de carro do evento.</p> -->
+      <p>Algumas recomendações de hotéis:</p>
+      <ul>
+        <li><a href="https://all.accor.com/hotel/9450/index.pt-br.shtml" target="_blank">Ibis Budget</a></li>
+        <li><a href="https://all.accor.com/hotel/2907/index.pt-br.shtml" target="_blank">Ibis</a></li>
+        <li><a href="https://all.accor.com/hotel/9456/index.pt-br.shtml" target="_blank">Hotel Novotel</a></li>
+        <li><a href="https://www.reserveatlantica.com.br/hotel/esuites-sorocaba-by-atlantica" target="_blank">eSuites</a></li>
+      </ul>
     </VSection>
     <VSection>
       <h2>Onde comer? </h2>
@@ -52,6 +59,17 @@ import Map from '@/components/Map.vue'
 
 export default {
   name: 'Guia',
+  metaInfo () {
+    return {
+      title: 'Guia de Sorocaba | Giulia e Gabriel',
+      meta: [
+        {
+          name: 'name',
+          content: 'Guia de Sorocaba | Giulia e Gabriel'
+        }
+      ]
+    }
+  },
   components: {
     Hero,
     VSection,

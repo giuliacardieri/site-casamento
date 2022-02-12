@@ -29,6 +29,17 @@ import CountdownSection from '@/components/CountdownSection.vue'
 
 export default {
   name: 'Home',
+  metaInfo () {
+    return {
+      title: 'Casamento Giulia e Gabriel',
+      meta: [
+        {
+          name: 'name',
+          content: 'Casamento Giulia e Gabriel'
+        }
+      ]
+    }
+  },
   components: {
     Hero,
     VSection,

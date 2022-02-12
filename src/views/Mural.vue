@@ -22,6 +22,17 @@ import CountdownSection from '@/components/CountdownSection.vue'
 
 export default {
   name: 'Mural',
+  metaInfo () {
+    return {
+      title: 'Mural de Mensagens | Giulia e Gabriel',
+      meta: [
+        {
+          name: 'name',
+          content: 'Mural de Mensagens | Giulia e Gabriel'
+        }
+      ]
+    }
+  },
   components: {
     Hero,
     Mensagens,
@@ -35,8 +46,8 @@ export default {
     }
   },
   methods: {
-    updateMural () {
-      this.update = true
+    updateMural (val) {
+      this.update = val
     }
   }
 }

@@ -1,8 +1,13 @@
 <template>
   <section class="mural">
     <div class="container">
+      <h1 class="mural__h1">mensagens</h1>
       <div class="mural__board">
-        <div v-for="(postit, index) in mensagens"
+        <div v-if="loading"
+          class="mural__loading">
+          opa, carregando, só um minuto...
+        </div>
+        <div v-else v-for="(postit, index) in mensagens"
           :key="index"
           class="mural__postit"
         >
@@ -27,6 +32,7 @@ export default {
   },
   data: function () {
     return {
+      loading: true,
       mensagens: undefined,
       name: 'giulia',
       message: 'e ai parabensssss bjs'
@@ -36,7 +42,10 @@ export default {
     getMensagens () {
       this.axios
         .get('https://casamento-api-gg.herokuapp.com/api/mensagens')
-        .then(response => (this.mensagens = response.data))
+        .then(response => {
+          this.mensagens = response.data
+          this.loading = false
+        })
     }
   },
   created () {
@@ -51,6 +60,16 @@ export default {
   padding: 4rem;
 }
 
+.mural__loading {
+  color: var(--branco);
+}
+
+.mural__h1 {
+  color: var(--branco);
+  font-size: 2rem;
+  margin: 0 0 .75rem 0;
+}
+
 .mural__board {
   display: grid;
   gap: 1rem;
@@ -59,6 +78,8 @@ export default {
 
 .mural__h3 {
   margin: .5rem 0 0 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .mural__postit {

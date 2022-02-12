@@ -83,6 +83,10 @@ p, li {
   text-transform: lowercase;
 }
 
+ul li::marker {
+  color: var(--bordo);
+}
+
 .h3--jenna {
   color: var(--bordo);
   font-family: 'Jenna Sue', serif;

@@ -4,6 +4,7 @@ import router from './router'
 import Dayjs from 'vue-dayjs'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import VueMeta from 'vue-meta'
 import * as VueGoogleMaps from 'vue2-google-maps'
 
 Vue.config.productionTip = false
@@ -15,6 +16,7 @@ Vue.use(VueGoogleMaps, {
 })
 Vue.use(VueAxios, axios)
 Vue.use(Dayjs)
+Vue.use(VueMeta)
 
 new Vue({
   router,

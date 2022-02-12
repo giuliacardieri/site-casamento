@@ -2,7 +2,7 @@
   <header class="hero" :style="`background-image: url('${require('@/assets/images/' + image + '.jpg')}')`">
     <div class="hero__text">
       <h1 class="hero__h1">{{ title }}</h1>
-      <p v-if="hasDates" class="hero__p">09.07.2022</p>
+      <p v-if="hasDates" class="hero__p">09.07.2022 15:30hrs</p>
       <p v-if="hasDates" class="hero__p">Villa Ásolo, Votorantim</p>
     </div>
   </header>
