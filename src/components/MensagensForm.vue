@@ -13,7 +13,7 @@
         :reset="sentMessage"
         @updatedField="updateField"
       />
-      <p class="mensagens-form__p">Ao clicar em enviar, você concorda em deixar sua mensagem pública. Ela será adicionada no mural abaixo após uma revisão, só para evitar spam. Qualquer problema nos avise!</p>
+      <p class="mensagens-form__p">Ao clicar em enviar, você concorda em deixar sua mensagem pública. Após uma revisão, adicionaremos a mensagem no mural. Qualquer problema nos avise!</p>
       <button class="mensagens-form__button"
         type="submit"
         :disabled="this.name && this.message ? false : true"
