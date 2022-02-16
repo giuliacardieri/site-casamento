@@ -41,6 +41,11 @@
 <script>
 export default {
   name: 'MainNav',
+  watch: {
+    $route () {
+      this.menuIsOpen = false
+    }
+  },
   data: function () {
     return {
       menuIsOpen: false

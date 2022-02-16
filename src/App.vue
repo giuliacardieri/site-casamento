@@ -17,17 +17,17 @@ export default {
 <style>
 @font-face {
   font-family: 'Jenna Sue';
-  src: url('/assets/fonts/JennaSue.ttf') format('ttf');
+  src: url('./assets/fonts/JennaSue.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Nimbus Mono';
-  src: url('/assets/fonts/nimbusmono-regular.otf') format('otf');
+  src: url('./assets/fonts/nimbusmono-regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Nimbus Mono';
-  src: url('/assets/fonts/nimbusmono-bold.otf') format('otf');
+  src: url('./assets/fonts/nimbusmono-bold.otf') format('opentype');
   font-style: bold;
 }
 
