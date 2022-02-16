@@ -23,7 +23,7 @@
       </button>
     </form>
     <p :class="[sentMessage ? 'mensagens-form__sucesso--sucesso' : '' ,'mensagens-form__sucesso']">
-      Oba! Sua mensagem foi adicionada com succeso no mural! 😁
+      Oba! Sua mensagem foi enviada com succeso, e em breve estará no mural! 😁
     </p>
   </section>
 </template>
