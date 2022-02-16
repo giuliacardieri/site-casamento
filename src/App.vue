@@ -44,6 +44,7 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 body * {
