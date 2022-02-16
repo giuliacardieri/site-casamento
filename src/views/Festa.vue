@@ -5,7 +5,7 @@
     />
     <VSection>
       <h2>O Local 🌳</h2>
-      <p>Queríamos um local cheio de natureza, mas também não muito longe da cidade. após uma busca, encontramos a <a href="https://www.instagram.com/villaasolo/" target="_blank">villa ásolo</a>!</p>
+      <p>Queriamos um local cheio de natureza, mas também não muito longe da cidade. após uma busca, encontramos a <a href="https://www.instagram.com/villaasolo/" target="_blank">villa ásolo</a>!</p>
       <p>Villa ásolo fica em votorantim, a poucos minutos da rodovia raposo tavares, do centro de votorantim, e de sorocaba. Fica numa estrada normal, não é de terra nem de difícil acesso.</p>
       <p>está em dúvida de onde ficar em sorocaba? dê uma olhada no nosso <router-link to="/guia-de-sorocaba">guia de sorocaba</router-link>!</p>
       <p>Aqui embaixo temos o endereço exato. recomendamos vir de uber ou <a href="http://sorotaxi.com.br/" target="_blank">sorotaxi</a>, mas teremos estacionamento caso você decida vir dirigindo.</p>
