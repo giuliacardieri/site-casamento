@@ -41,7 +41,6 @@ export default {
   font-size: 3rem;
   margin: 0.75rem 0 0 0;
   text-align: center;
-  text-transform: lowercase;
 }
 
 .countdown__h2--bordo {

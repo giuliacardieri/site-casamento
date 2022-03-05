@@ -87,7 +87,6 @@ export default {
   font-size: 1rem;
   min-height: 150px;
   padding: 1rem;
-  text-transform: lowercase;
 }
 
 .mural__postit:nth-child(odd) {

@@ -59,7 +59,6 @@ body * {
 h2 {
   font-size: 2rem;
   margin: 0 0 1rem 0;
-  text-transform: lowercase;
 }
 
 a:not(.link-no-inherit) {
@@ -81,7 +80,6 @@ a:not(.link-no-inherit):focus {
 
 p, li {
   margin: 0;
-  text-transform: lowercase;
 }
 
 ul li::marker {

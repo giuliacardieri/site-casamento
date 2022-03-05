@@ -5,10 +5,10 @@
     />
     <VSection>
       <h2>O Local 🌳</h2>
-      <p>Queriamos um local cheio de natureza, mas também não muito longe da cidade. após uma busca, encontramos a <a href="https://www.instagram.com/villaasolo/" target="_blank">villa ásolo</a>!</p>
-      <p>Villa ásolo fica em votorantim, a poucos minutos da rodovia raposo tavares, do centro de votorantim, e de sorocaba. Fica numa estrada normal, não é de terra nem de difícil acesso.</p>
-      <p>está em dúvida de onde ficar em sorocaba? dê uma olhada no nosso <router-link to="/guia-de-sorocaba">guia de sorocaba</router-link>!</p>
-      <p>Aqui embaixo temos o endereço exato. recomendamos vir de uber ou <a href="http://sorotaxi.com.br/" target="_blank">sorotaxi</a>, mas teremos estacionamento caso você decida vir dirigindo.</p>
+      <p>Queriamos um local cheio de natureza, mas também não muito longe da cidade. após uma busca, encontramos a <a href="https://www.instagram.com/villaasolo/" target="_blank">Villa Ásolo</a>!</p>
+      <p>Villa Ásolo fica a poucos minutos da rodovia Raposo Tavares, do centro de Votorantim, e de Sorocaba. A estrada para chegar ao local é normal, não é de terra nem de difícil acesso.</p>
+      <p>Está em dúvida de onde ficar em Sorocaba? Dê uma olhada no nosso <router-link to="/guia-de-sorocaba">Guia de Sorocaba</router-link>!</p>
+      <p>Aqui embaixo temos o endereço exato. Recomendamos vir de Uber ou <a href="http://sorotaxi.com.br/" target="_blank">Sorotaxi</a>, mas teremos estacionamento caso você decida vir dirigindo.</p>
     </VSection>
     <Map heading="Villa Ásolo"
       lat="-23.53266994567835"
@@ -23,9 +23,9 @@
     </VSection>
     <VSection>
       <h2>Que roupa eu vou? 👗</h2>
-      <p>com uma roupa que você se sinta a vontade, por ser uma festa esperamos que você vá com uma roupa social (ex: calça social e camisa, ou terno, vestido, ou alguma roupa que você ache que combina).</p>
-      <p>dia 9 de julho costuma ficar entre 10-18 graus durante a noite em sorocaba. Por isso, traga um casaco, jaqueta ou pashmina, pois a festa será ao ar livre! mas se você é friorento não se preocupe, teremos aquecedores!</p>
-      <p>ah, outra coisa, não recomendamos vir de salto fino, o local da cerimônia é de grama, e o piso do espaço é irregular.</p>
+      <p>Com uma roupa que você se sinta a vontade, por ser uma festa esperamos que você vá com uma roupa social (ex: calça social e terno, vestido, ou alguma roupa que você ache que combina).</p>
+      <p>Dia 9 de julho costuma ficar entre 10-18 graus durante a noite em Sorocaba. Por isso, traga um casaco, jaqueta ou pashmina, pois a festa será ao ar livre! Mas se você é friorento não se preocupe, teremos aquecedores!</p>
+      <p>Ah, outra coisa, não recomendamos vir de salto fino, o local da cerimônia é de grama, e o piso do espaço é irregular.</p>
     </VSection>
     <CountdownSection />
   </main>

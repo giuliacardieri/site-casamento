@@ -1,13 +1,13 @@
 <template>
   <section class="mensagens-form">
     <form class="mensagens-form__form">
-      <VInput label="nome"
+      <VInput label="Nome"
         name="nome"
         :max-length="50"
         :reset="sentMessage"
         @updatedField="updateField"
       />
-      <VTextarea label="mensagem"
+      <VTextarea label="Mensagem"
         name="message"
         :max-length="150"
         :reset="sentMessage"
@@ -19,7 +19,7 @@
         :disabled="this.name && this.message ? false : true"
         @click="submit"
       >
-        enviar
+        Enviar
       </button>
     </form>
     <p :class="[sentMessage ? 'mensagens-form__sucesso--sucesso' : '' ,'mensagens-form__sucesso']">

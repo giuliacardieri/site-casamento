@@ -5,9 +5,7 @@
     />
     <VSection>
       <h2>Sorocaba 🌃</h2>
-      <p>Na verdade, o casamento será em Votorantim. Pra quem não conhece, Sorocaba e Votorantim ficam grudadas, você praticamente não sabe quando sai de uma cidade e entra na outra. Por isso, vamos fazer o guia de Sorocaba pois é onde conhecemos mais e recomendamos vocês se hospedarem (nada contra Votorantim, só que Sorocaba é bem maior).</p>
-      <p>Villa ásolo fica em votorantim, a poucos minutos da rodovia raposo tavares, do centro de votorantim, e de sorocaba. Fica numa estrada normal, não é de terra nem de difícil acesso.</p>
-      <p>está em dúvida de onde ficar em sorocaba? dê uma olhada no nosso <router-link to="/guia-de-sorocaba">guia de sorocaba</router-link>!</p>
+      <p>Na verdade, o casamento será em Votorantim. Pra quem não conhece, Sorocaba e Votorantim são grudadas, você praticamente não sabe quando sai de uma cidade e entra na outra. Por isso, vamos fazer o guia de Sorocaba pois é onde conhecemos mais e recomendamos vocês se hospedarem (nada contra Votorantim, só que Sorocaba é bem maior).</p>
 
     </VSection>
     <Map lat="-23.505699037692782"
@@ -19,12 +17,12 @@
       <p>Se você vem de São Paulo e de carro, recomendamos vir pela Rodovia Castello Branco, a Raposo Tavares demora bem mais e a estrada não é tão boa.</p>
       <p>Se você vem de São Paulo e não tem carro, recomendamos vir de Viação Cometa. Costuma ter ônibus saindo a cada 15 min da Barra Funda. O último ônibus Sorocaba-SP é próximo da meia-noite. Não recomendamos deixar para voltar após a festa.</p>
       <p>O aeroporto mais próximo é o de Viracopos em Campinas. Fica a 50-60 minutos de Sorocaba/Votorantim.</p>
-      <p>Aeroporto de congonhas em SP também não é tão longe. Fica a 1:20 de Sorocaba/Votorantim dependendo do trânsito.</p>
+      <p>Aeroporto de Congonhas em SP também não é tão longe. Fica a 1:20 de Sorocaba/Votorantim dependendo do trânsito.</p>
     </VSection>
     <VSection>
       <h2>Como posso me locomover? 🚗</h2>
-      <p>Recomendamos vir de uber ou <a href="http://sorotaxi.com.br/" target="_blank">sorotaxi</a></p>
-      <p>teremos estacionamento caso você decida vir dirigindo, só se lembre que teremos bebidas alcóolicas na festa.</p>
+      <p>Recomendamos vir de Uber ou <a href="http://sorotaxi.com.br/" target="_blank">Sorotaxi</a></p>
+      <p>Teremos estacionamento caso você decida vir dirigindo, só se lembre que teremos bebidas alcóolicas na festa.</p>
     </VSection>
     <VSection isPink>
       <h2>Onde ficar? 🏨</h2>
