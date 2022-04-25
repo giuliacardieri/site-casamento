@@ -21,6 +21,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Guia.vue')
   },
   {
+    path: '/lista-de-presentes',
+    name: 'Lista de Presentes',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Presentes.vue')
+  },
+  {
     path: '/mural-de-mensagens',
     name: 'Mural de Mensagens',
     component: () => import(/* webpackChunkName: "about" */ '../views/Mural.vue')

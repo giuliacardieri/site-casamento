@@ -1,6 +1,6 @@
 <template>
-  <section class="mensagens-form">
-    <form class="mensagens-form__form">
+  <section class="form-wrapper">
+    <form class="form">
       <VInput label="Nome"
         name="nome"
         :max-length="50"
@@ -13,17 +13,18 @@
         :reset="sentMessage"
         @updatedField="updateField"
       />
-      <p class="mensagens-form__p">Ao clicar em enviar, você concorda em deixar sua mensagem pública. Após uma revisão, adicionaremos a mensagem no mural. Qualquer problema nos avise!</p>
-      <button class="mensagens-form__button"
-        type="submit"
+      <p v-if="isMural" class="form__p">
+        Ao clicar em enviar, você concorda em deixar sua mensagem pública. Após uma revisão, adicionaremos a mensagem no mural. Qualquer problema nos avise!
+      </p>
+      <button type="submit"
         :disabled="this.name && this.message ? false : true"
         @click="submit"
       >
         Enviar
       </button>
     </form>
-    <p :class="[sentMessage ? 'mensagens-form__sucesso--sucesso' : '' ,'mensagens-form__sucesso']">
-      Oba! Sua mensagem foi enviada com succeso, e em breve estará no mural! 😁
+    <p :class="[sentMessage ? 'form__sucesso--sucesso' : '' ,'form__sucesso']">
+      Oba! Sua mensagem foi enviada com succeso! 😁
     </p>
   </section>
 </template>
@@ -34,6 +35,7 @@ import VTextarea from '@/components/form/VTextarea.vue'
 
 export default {
   name: 'MensagensForm',
+  prop: ['endpoint', 'isMural'],
   components: {
     VInput,
     VTextarea
@@ -60,7 +62,7 @@ export default {
 
       if (this.name && this.message) {
         this.axios
-          .post('https://casamento-api-gg.herokuapp.com/api/mensagens', {
+          .post(this.endpoint, {
             name: this.name,
             message: this.message
           })
@@ -78,64 +80,30 @@ export default {
 </script>
 
 <style scoped>
-.mensagens-form {
+.form-wrapper {
   margin-top: 1rem;
   max-width: 800px;
 }
 
-.mensagens-form__form {
+.form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.mensagens-form__sucesso {
+.form__sucesso {
   display: none;
   color: var(--bordo);
   font-weight: bold;
   margin-top: 1rem;
 }
 
-.mensagens-form__sucesso--sucesso {
+.form__sucesso--sucesso {
   display: block;
 }
 
-.mensagens-form__p {
+.form__p {
   font-size: .9rem;
   line-height: 1;
-}
-
-.mensagens-form__button {
-  align-self: flex-start;
-  background-color: var(--bordo);
-  border: none;
-  border-radius: .25rem;
-  color: var(--branco);
-  font-size: 1rem;
-  padding: .5rem 1rem;
-}
-
-.mensagens-form__button:not(:disabled) {
-  cursor: pointer;
-}
-
-.mensagens-form__button:disabled {
-  opacity: .5;
-}
-
-@media (max-width: 991px) {
-  .mural {
-    padding: 3rem;
-  }
-
-  .mural__board {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 767px) {
-  .mural__board {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
 }
 </style>
