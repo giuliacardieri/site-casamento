@@ -1,16 +1,10 @@
 <template>
   <aside class="main-nav__wrapper">
-    <button class="main-nav__button main-nav__button--open"
-      @click="openMenu()"
-    >
+    <button class="main-nav__button main-nav__button--open" @click="openMenu()">
       abrir menu
     </button>
-    <nav :class="[ menuIsOpen ? 'main-nav--open' : '', 'main-nav' ]">
-      <button class="main-nav__button"
-        @click="closeMenu()"
-      >
-        fechar menu
-      </button>
+    <nav :class="[menuIsOpen ? 'main-nav--open' : '', 'main-nav']">
+      <button class="main-nav__button" @click="closeMenu()">fechar menu</button>
       <h2 class="main-nav__h2">Menu</h2>
       <ul class="main-nav__list">
         <li class="main-nav__item">
@@ -24,12 +18,31 @@
           </router-link>
         </li>
         <li class="main-nav__item">
-          <router-link to="guia-de-sorocaba" class="main-nav__link link-no-inherit">
+          <router-link to="confirmacao-de-presenca" class="main-nav__link link-no-inherit">
+            Confirmação de Presença
+          </router-link>
+        </li>
+        <li class="main-nav__item">
+          <router-link
+            to="guia-de-sorocaba"
+            class="main-nav__link link-no-inherit"
+          >
             Guia de Sorocaba
           </router-link>
         </li>
         <li class="main-nav__item">
-          <router-link to="mural-de-mensagens" class="main-nav__link link-no-inherit">
+          <router-link
+            to="lista-de-presentes"
+            class="main-nav__link link-no-inherit"
+          >
+            Lista de Presentes
+          </router-link>
+        </li>
+        <li class="main-nav__item">
+          <router-link
+            to="mural-de-mensagens"
+            class="main-nav__link link-no-inherit"
+          >
             Mural de Mensagens
           </router-link>
         </li>
@@ -80,6 +93,7 @@ export default {
   background-color: transparent;
   border: none;
   border-bottom: 1px dotted var(--preto);
+  border-radius: 0;
   font-size: 1rem;
   margin: 0 0 2rem auto;
   text-align: right;
@@ -104,7 +118,7 @@ export default {
   line-height: 1rem;
   padding: 0.25rem 0.25rem 0;
   text-decoration: none;
-  transition: background-color .5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .main-nav__link:active,
@@ -114,7 +128,7 @@ export default {
   color: var(--branco);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .main-nav__h2 {
     display: none;
   }
@@ -124,7 +138,7 @@ export default {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .main-nav__wrapper {
     position: sticky;
     top: 0;
@@ -153,7 +167,7 @@ export default {
   }
 
   .main-nav__item {
-    margin: .5rem 0;
+    margin: 0.5rem 0;
   }
 
   .main-nav__link {

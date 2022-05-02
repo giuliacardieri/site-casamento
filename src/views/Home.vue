@@ -1,18 +1,42 @@
 <template>
   <main>
-    <Hero title="Giulia &amp; Gabriel"
-      image="hero-home"
-      hasDates
-    />
+    <Hero title="Giulia &amp; Gabriel" image="hero-home" hasDates />
     <VSection>
       <h2>Oiiiii! Bem-vindos ao site do nosso casamento! 👋</h2>
-      <p>Estamos muito felizes de comemorar esse dia tão especial com vocês, nossa família e amigos!</p>
-      <p>Nesse site vamos compartilhar mais sobre o grande dia, mais para frente vamos adicionar a lista de presentes e você poderá confirmar sua presença.</p>
+      <p>
+        Estamos muito felizes de comemorar esse dia tão especial com vocês,
+        nossa família e amigos!
+      </p>
+      <p>
+        Nesse site vamos compartilhar mais sobre o grande dia, mais para frente
+        vamos adicionar a lista de presentes e você poderá confirmar sua
+        presença.
+      </p>
       <p>Vamos começar?</p>
       <ol>
-        <li>Que tal <router-link to="/a-festa">saber mais sobre a festa</router-link> para planejar seu look?</li>
-        <li>Enquanto o grande dia não chega, que tal <router-link to="/mural-de-mensagens">deixar uma mensagem</router-link> animada no nosso mural?</li>
-        <li>Se você não é de sorocaba, recomendamos dar uma olhada no <router-link to="/guia-de-sorocaba">guia de sorocabano</router-link> da Giulia e do Gabriel</li>
+        <li>
+          Que tal
+          <router-link to="/a-festa">saber mais sobre a festa</router-link> para
+          planejar seu look?
+        </li>
+        <li>
+          Enquanto o grande dia não chega, que tal
+          <router-link to="/mural-de-mensagens"
+            >deixar uma mensagem</router-link
+          >
+          animada no nosso mural?
+        </li>
+        <li>
+          Se você não é de sorocaba, recomendamos dar uma olhada no
+          <router-link to="/guia-de-sorocaba">guia de sorocabano</router-link>
+          da Giulia e do Gabriel
+        </li>
+        <li>
+          A
+          <router-link to="/lista-de-presentes">lista de presentes</router-link>
+          já está disponível, que tal nos ajudar a montar nosso novo lar no
+          Canadá?
+        </li>
       </ol>
       <p>Esperamos vocês dia 9 de julho!</p>
       <p>Um abraço,</p>

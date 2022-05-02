@@ -94,6 +94,33 @@ ul li::marker {
   margin: 1rem 0;
 }
 
+button {
+  align-self: flex-start;
+  background-color: var(--bordo);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: var(--branco);
+  font-family: 'Nimbus Mono', sans-serif;
+  font-size: 1rem;
+  padding: .5rem 1rem .25rem;
+  transition: all .2s ease-in-out;
+}
+
+button:not(:disabled):hover,
+button:focus {
+  background-color: transparent;
+  border-color: var(--bordo);
+  color: var(--bordo);
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: .5;
+}
+
 @media (max-width: 991px) {
   h2 {
     font-size: 1.5rem;

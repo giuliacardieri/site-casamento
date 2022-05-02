@@ -16,9 +16,19 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Festa.vue')
   },
   {
+    path: '/confirmacao-de-presenca',
+    name: 'Confirmação de Presença',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Confirmacao.vue')
+  },
+  {
     path: '/guia-de-sorocaba',
     name: 'Guia de Sorocaba',
     component: () => import(/* webpackChunkName: "about" */ '../views/Guia.vue')
+  },
+  {
+    path: '/lista-de-presentes',
+    name: 'Lista de Presentes',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Presentes.vue')
   },
   {
     path: '/mural-de-mensagens',

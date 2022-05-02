@@ -6,7 +6,10 @@
     <VSection>
       <h2>Que tal deixar uma mensagem pra gente? 📬</h2>
       <p>Fale um oi! Ajude a gente a ficar ainda mais animados para dia 9 de Julho!!</p>
-      <MensagensForm @submittedContent="updateMural" />
+      <Form isMural
+        endpoint="https://casamento-api-gg.herokuapp.com/api/mensagens"
+        @submittedContent="updateMural"
+      />
     </VSection>
     <Mensagens :update="update" />
     <CountdownSection />
@@ -16,7 +19,7 @@
 <script>
 import Hero from '@/components/Hero.vue'
 import Mensagens from '@/components/Mensagens.vue'
-import MensagensForm from '@/components/MensagensForm.vue'
+import Form from '@/components/Form.vue'
 import VSection from '@/components/VSection.vue'
 import CountdownSection from '@/components/CountdownSection.vue'
 
@@ -36,7 +39,7 @@ export default {
   components: {
     Hero,
     Mensagens,
-    MensagensForm,
+    Form,
     VSection,
     CountdownSection
   },
