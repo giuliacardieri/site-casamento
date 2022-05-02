@@ -6,7 +6,7 @@
       {{ label }}
     </label>
     <input class="input-group__input"
-      type="text"
+      :type="type"
       :id="name"
       :name="name"
       v-model="value"
@@ -26,7 +26,11 @@ export default {
     label: String,
     name: String,
     maxLength: Number,
-    reset: Boolean
+    reset: Boolean,
+    type: {
+      type: String,
+      default: 'text'
+    }
   },
   watch: {
     reset () {

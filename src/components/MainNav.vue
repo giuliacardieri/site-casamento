@@ -18,6 +18,11 @@
           </router-link>
         </li>
         <li class="main-nav__item">
+          <router-link to="confirmacao-de-presenca" class="main-nav__link link-no-inherit">
+            Confirmação de Presença
+          </router-link>
+        </li>
+        <li class="main-nav__item">
           <router-link
             to="guia-de-sorocaba"
             class="main-nav__link link-no-inherit"
@@ -48,26 +53,26 @@
 
 <script>
 export default {
-  name: "MainNav",
+  name: 'MainNav',
   watch: {
-    $route() {
-      this.menuIsOpen = false;
-    },
+    $route () {
+      this.menuIsOpen = false
+    }
   },
   data: function () {
     return {
-      menuIsOpen: false,
-    };
+      menuIsOpen: false
+    }
   },
   methods: {
-    openMenu() {
-      this.menuIsOpen = true;
+    openMenu () {
+      this.menuIsOpen = true
     },
-    closeMenu() {
-      this.menuIsOpen = false;
-    },
-  },
-};
+    closeMenu () {
+      this.menuIsOpen = false
+    }
+  }
+}
 </script>
 
 <style scoped>
@@ -88,6 +93,7 @@ export default {
   background-color: transparent;
   border: none;
   border-bottom: 1px dotted var(--preto);
+  border-radius: 0;
   font-size: 1rem;
   margin: 0 0 2rem auto;
   text-align: right;
@@ -122,7 +128,7 @@ export default {
   color: var(--branco);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .main-nav__h2 {
     display: none;
   }
@@ -132,7 +138,7 @@ export default {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .main-nav__wrapper {
     position: sticky;
     top: 0;

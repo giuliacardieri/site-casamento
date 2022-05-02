@@ -35,7 +35,7 @@ export default {
       meta: [
         {
           name: 'name',
-          content: 'Lista de Presentes| Giulia e Gabriel'
+          content: 'Lista de Presentes | Giulia e Gabriel'
         }
       ]
     }

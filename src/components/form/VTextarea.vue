@@ -40,9 +40,7 @@ export default {
   },
   methods: {
     emitData () {
-      console.log(this.value.length)
       if (this.value.length && this.value.length >= this.maxLength) {
-        console.log('too big')
         this.$emit('updatedField', {
           name: this.name,
           value: ''

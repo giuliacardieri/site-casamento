@@ -6,7 +6,7 @@
     <VSection>
       <h2>Que tal deixar uma mensagem pra gente? 📬</h2>
       <p>Fale um oi! Ajude a gente a ficar ainda mais animados para dia 9 de Julho!!</p>
-      <Form isMural="true"
+      <Form isMural
         endpoint="https://casamento-api-gg.herokuapp.com/api/mensagens"
         @submittedContent="updateMural"
       />

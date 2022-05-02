@@ -42,7 +42,7 @@
   {
     "nome": "Garrafa filtro de água",
     "categoria": "Cozinha",
-    "foto": "brita.webp",
+    "foto": "brita.png",
     "valor": "R$143,20",
     "valorCAD": "$38,00",
     "link": "https://www.bedbathandbeyond.ca/store/product/brita-10-cup-grand-pitcher/3300858?brandId=21"
@@ -58,7 +58,7 @@
   {
     "nome": "Jogo de tábuas de corte Marca OXO",
     "categoria": "Cozinha",
-    "foto": "tabuas.webp",
+    "foto": "tabuas.png",
     "valor": "R$252,48",
     "valorCAD": "$67,00",
     "link": "https://www.bedbathandbeyond.ca/store/product/oxo-good-grips-3-piece-everyday-cutting-board-set/5398736?categoryId=25616&skuId="
@@ -66,7 +66,7 @@
   {
     "nome": "Tigelonas de aço para cozinhar",
     "categoria": "Cozinha",
-    "foto": "tigelonas.webp",
+    "foto": "tigelonas.png",
     "valor": "R$358,00",
     "valorCAD": "$95,00",
     "link": "https://www.bedbathandbeyond.ca/store/product/oxo-3-piece-stainless-steel-mixing-bowl-set/5364852?categoryId=25447&skuId="
@@ -74,7 +74,7 @@
   {
     "nome": "Tigelas de plástico",
     "categoria": "Cozinha",
-    "foto": "tigelas.webp",
+    "foto": "tigelas.png",
     "valor": "R$94,21",
     "valorCAD": "$25,00",
     "link": "https://www.bedbathandbeyond.ca/store/product/simply-essential-3-piece-melamine-bowls-set/5555546?categoryId=25447&skuId="
@@ -82,7 +82,7 @@
   {
     "nome": "Copo medidor de vidro",
     "categoria": "Cozinha",
-    "foto": "medidor.webp",
+    "foto": "medidor.png",
     "valor": "R$45,22",
     "valorCAD": "$12,00",
     "link": "https://www.bedbathandbeyond.ca/store/product/pyrex-prepware-glass-measuring-cup/5215256?categoryId=25617&skuId="
@@ -90,7 +90,7 @@
   {
     "nome": "Conjunto com 10 potes de vidro",
     "categoria": "Cozinha",
-    "foto": "potes.webp",
+    "foto": "potes.png",
     "valor": "R$90,44",
     "valorCAD": "$24,00",
     "link": "https://www.bedbathandbeyond.ca/store/product/simply-essential-10-piece-glass-food-storage-set-in-grey/5602711?strategy=pdp_4star"
@@ -106,7 +106,7 @@
   {
     "nome": "Kit mixer",
     "categoria": "Cozinha",
-    "foto": "mixer.jpg",
+    "foto": "mixer.png",
     "valor": "R$226,10",
     "valorCAD": "$60,00",
     "link": "https://www.amazon.ca/CUISINART-SmartStick-2-Speed-Blender-Attachment/dp/B018IQG920/ref=sr_1_6?crid=37EK107BQR1X3&keywords=hand+blender&qid=1649818757&sprefix=hand+blende%2Caps%2C346&sr=8-6"
@@ -114,15 +114,15 @@
   {
     "nome": "Facas tramontina do brasil",
     "categoria": "Cozinha",
-    "foto": "",
-    "valor": "",
+    "foto": "facas.png",
+    "valor": "R$120,00",
     "valorCAD": "",
     "link": ""
   },
   {
-    "nome": "mantegueira",
+    "nome": "Mantegueira",
     "categoria": "Cozinha",
-    "foto": "mantegueira.jpeg",
+    "foto": "mantegueira.png",
     "valor": "R$76,00",
     "valorCAD": "-",
     "link": "https://www.elo7.com.br/manteigueira-branca-poa-colorido/dp/94CDF5?elo7_source=google_shop&elo7_medium=cpc&elo7_campaign=Shopping-google_shop-cpc-Shopping-Casa_e_Decor_Categorizada-Smart&elo7_content=Casa_e_Decor_Categorizada-Smart&gclid=Cj0KCQjwxtSSBhDYARIsAEn0thS-dDuCLwMAE0-VHZjZncidssNuXywM9dgPKK0rvU0afBuakk63oLYaAo65EALw_wcB"
@@ -130,7 +130,7 @@
   {
     "nome": "Air Fryer",
     "categoria": "Eletrodomésticos",
-    "foto": "airfryer.jpeg",
+    "foto": "airfryer.png",
     "valor": "R$569,03",
     "valorCAD": "$151,00",
     "link": "https://www.bestbuy.ca/en-ca/product/ninja-air-fryer-3-79l-black/14611017?source=collection&adSlot=1"
@@ -138,7 +138,7 @@
   {
     "nome": "Aspirador de pó",
     "categoria": "Eletrodomésticos",
-    "foto": "aspirador.jpeg",
+    "foto": "aspirador.png",
     "valor": "R$1.318,93",
     "valorCAD": "$350,00",
     "link": "https://www.bedbathandbeyond.ca/store/product/bissell-crosswave-all-in-one-multi-surface-cleaner-in-white-silver/1061521391?keyword=vacuum&skuId="
@@ -146,7 +146,7 @@
   {
     "nome": "Jantar em São Paulo",
     "categoria": "Lua de Mel",
-    "foto": "",
+    "foto": "jantar-sp.jpeg",
     "valor": "R$200,00",
     "valorCAD": "-",
     "link": ""
@@ -154,7 +154,7 @@
   {
     "nome": "Ajuda para hotel/airbnb em São Paulo",
     "categoria": "Lua de Mel",
-    "foto": "",
+    "foto": "airbnb-sp.jpeg",
     "valor": "R$350,00",
     "valorCAD": "-",
     "link": ""
@@ -170,7 +170,7 @@
   {
     "nome": "Cama Lambrusca",
     "categoria": "Pets",
-    "foto": "cama-lambrusca.jpeg",
+    "foto": "cama-lambrusca.png",
     "valor": "R$162,04",
     "valorCAD": "$43,00",
     "link": "https://www.petsmart.ca/dog/beds-and-furniture/pillow-beds/kong-durable-lounger-dog-bed-58416.html"
@@ -178,7 +178,7 @@
   {
     "nome": "Jogo de Lençol",
     "categoria": "Quarto",
-    "foto": "lencol.webp",
+    "foto": "lencol.png",
     "valor": "R$655,70",
     "valorCAD": "$174,00",
     "link": "https://www.bedbathandbeyond.ca/store/product/therapedic-sleeprx-400-thread-count-sheet-set/5558745?categoryId=25769"
@@ -194,7 +194,7 @@
   {
     "nome": "Capa de edredom",
     "categoria": "Quarto",
-    "foto": "jogo-lencol.webp",
+    "foto": "jogo-lencol.png",
     "valor": "R$113,05",
     "valorCAD": "$30,00",
     "link": "https://www.ikea.com/ca/en/p/aengslilja-duvet-cover-and-pillowcase-s-gray-90318645/"
@@ -218,7 +218,7 @@
   {
     "nome": "Quatro Travesseiros",
     "categoria": "Quarto",
-    "foto": "travesseiro.jpeg",
+    "foto": "travesseiro.png",
     "valor": "R$271,32",
     "valorCAD": "$72,00",
     "link": "https://www.ikea.com/ca/en/p/skogsfraeken-pillow-high-60460541/"
@@ -242,7 +242,7 @@
   {
     "nome": "Capacho de Corgi",
     "categoria": "Sala",
-    "foto": "capacho.jpg",
+    "foto": "capacho.png",
     "valor": "R$109,28",
     "valorCAD": "$29,00",
     "link": "https://www.amazon.ca/Entrance-Trapper-Floor-Cartoon-Doormat/dp/B099W9Q9DY/ref=sr_1_3?crid=29VF9Z754MCE&keywords=corgi+doormat&qid=1649818421&s=kitchen&sprefix=corgi+doorma%2Ckitchen%2C192&sr=1-3"
@@ -264,130 +264,122 @@
     "link": "https://www.ikea.com/ca/en/p/satsumas-plant-stand-bamboo-white-90258156/"
   },
   {
-    "nome": "Potes de organização",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
-    "valorCAD": "",
-    "link": ""
-  },
-  {
     "nome": "Assadeira de pizza",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Cozinha",
+    "foto": "assadeira-pizza.png",
+    "valor": "R$30,00",
     "valorCAD": "",
     "link": ""
   },
   {
     "nome": "Assadeira de bolo",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Cozinha",
+    "foto": "assadeira-bolo.png",
+    "valor": "R$61,00",
     "valorCAD": "",
     "link": ""
   },
   {
     "nome": "Panela de ferro",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Cozinha",
+    "foto": "panela-ferro.png",
+    "valor": "R$174,08",
     "valorCAD": "",
     "link": ""
   },
   {
     "nome": "Frigideira de pizza de frigideira",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Cozinha",
+    "foto": "pdf.png",
+    "valor": "R$100,00",
     "valorCAD": "",
     "link": ""
   },
   {
     "nome": "Panela do brigadeiro",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Cozinha",
+    "foto": "panela-brigadeiro.png",
+    "valor": "R$154,00",
     "valorCAD": "",
     "link": ""
   },
   {
     "nome": "Panela do macarrão",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Cozinha",
+    "foto": "panela-macarrao.png",
+    "valor": "R$154,00",
     "valorCAD": "",
     "link": ""
   },
   {
     "nome": "Panela do brócolis",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Cozinha",
+    "foto": "panela-brocolis.png",
+    "valor": "R$96,71",
     "valorCAD": "",
     "link": ""
   },
   {
     "nome": "Panela de pipoca",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Cozinha",
+    "foto": "panela-pipoca.png",
+    "valor": "R$155,00",
     "valorCAD": "",
     "link": ""
   },
   {
     "nome": "Taças",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Cozinha",
+    "foto": "tacas.png",
+    "valor": "R$88,97",
     "valorCAD": "",
     "link": ""
   },
   {
     "nome": "Kit caipirinha",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Cozinha",
+    "foto": "kit-caipirinha.png",
+    "valor": "R$58,03",
     "valorCAD": "",
     "link": ""
   },
   {
-    "nome": "TV",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "nome": "Ajuda para comprar TV",
+    "categoria": "Sala",
+    "foto": "tv.png",
+    "valor": "R$500,00",
     "valorCAD": "",
     "link": ""
   },
   {
     "nome": "Abajur de quarto",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Quarto",
+    "foto": "abajur-quarto.png",
+    "valor": "R$50,00",
     "valorCAD": "",
     "link": ""
   },
   {
     "nome": "Jantar de boas-vindas em Halifax",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Lua de Mel",
+    "foto": "jantar-halifax.jpeg",
+    "valor": "R$250,00",
     "valorCAD": "",
     "link": ""
   },
   {
     "nome": "Jogo de toalhas",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Quarto",
+    "foto": "jogo-toalhas.png",
+    "valor": "R$154,74",
     "valorCAD": "",
     "link": ""
   },
   {
     "nome": "Presença da galinha de borracha no casamento",
-    "categoria": "",
-    "foto": "",
-    "valor": "",
+    "categoria": "Especial",
+    "foto": "galinha.png",
+    "valor": "R$50,00",
     "valorCAD": "",
     "link": ""
   }

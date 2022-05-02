@@ -15,8 +15,8 @@
       <p>Para presentear a Giulia e o Gabriel, por favor, faça um pix para:</p>
       <p class="modal__pix">Celular - 15997551715</p>
       <p>Deixe uma mensagem no seu PIX, ou se preferir escreva a mensagem abaixo:</p>
-      <Form isMural="false"
-        endpoint="https://casamento-api-gg.herokuapp.com/api/presentes"
+      <Form endpoint="https://casamento-api-gg.herokuapp.com/api/presentes"
+        :presente="item.nome"
       />
     </div>
   </aside>

@@ -1,9 +1,30 @@
 <template>
   <section class="form-wrapper">
     <form class="form">
-      <VInput label="Nome"
-        name="nome"
+      <VInput label="Nome*"
+        name="name"
         :max-length="50"
+        :reset="sentMessage"
+        @updatedField="updateField"
+      />
+      <VInput v-if="isConfirmacao"
+        label="Celular*"
+        name="phone"
+        :max-length="20"
+        :reset="sentMessage"
+        @updatedField="updateField"
+      />
+      <VInput v-if="isConfirmacao"
+        label="Quantidade de Adultos*"
+        name="adult"
+        type="number"
+        :reset="sentMessage"
+        @updatedField="updateField"
+      />
+      <VInput  v-if="isConfirmacao"
+        label="Quantidade de Crianças"
+        name="child"
+        type="number"
         :reset="sentMessage"
         @updatedField="updateField"
       />
@@ -17,7 +38,7 @@
         Ao clicar em enviar, você concorda em deixar sua mensagem pública. Após uma revisão, adicionaremos a mensagem no mural. Qualquer problema nos avise!
       </p>
       <button type="submit"
-        :disabled="this.name && this.message ? false : true"
+        :disabled="isDisabled"
         @click="submit"
       >
         Enviar
@@ -35,7 +56,23 @@ import VTextarea from '@/components/form/VTextarea.vue'
 
 export default {
   name: 'MensagensForm',
-  prop: ['endpoint', 'isMural'],
+  props: {
+    presente: {
+      type: String,
+      default: ''
+    },
+    endpoint: {
+      type: String
+    },
+    isMural: {
+      type: Boolean,
+      default: false
+    },
+    isConfirmacao: {
+      type: Boolean,
+      default: false
+    }
+  },
   components: {
     VInput,
     VTextarea
@@ -44,36 +81,72 @@ export default {
     return {
       sentMessage: false,
       name: '',
-      message: ''
+      phone: '',
+      adult: 0,
+      child: 0,
+      message: '',
+      isDisabled: true
     }
   },
   methods: {
+    checkDisabled () {
+      if (this.isConfirmacao && (!this.name || !this.phone || !this.adult)) {
+        return true
+      }
+      if (!this.isConfirmacao && (!this.name || !this.message)) {
+        return true
+      }
+      return false
+    },
     updateField (data) {
       this.sentMessage = false
       this.$emit('submittedContent', false)
-      if (data.name === 'nome') {
-        this.name = data.value
-      } else {
-        this.message = data.value
+      switch (data.name) {
+        case 'name': { this.name = data.value; break }
+        case 'phone': { this.phone = data.value; break }
+        case 'adult': { this.adult = data.value; break }
+        case 'child': { this.child = data.value; break }
+        case 'message': { this.message = data.value; break }
       }
+      this.isDisabled = this.checkDisabled()
     },
     submit (e) {
       e.preventDefault()
-
-      if (this.name && this.message) {
-        this.axios
-          .post(this.endpoint, {
-            name: this.name,
-            message: this.message
-          })
-          .then(() => {
-            this.sentMessage = true
-            this.name = ''
-            this.message = ''
-            this.$emit('submittedContent', true)
-          })
-          .catch(error => (console.log(error)))
+      if (this.isConfirmacao && this.name && this.phone && this.adult) {
+        this.postData({
+          name: this.name,
+          phone: this.phone,
+          adult: this.adult,
+          child: this.child,
+          message: this.message,
+          willgo: true
+        })
+      } else if (!this.isMural && this.name && this.message) {
+        this.postData({
+          name: this.name,
+          presente: this.presente,
+          message: this.message
+        })
+      } else if (this.name && this.message) {
+        this.postData({
+          name: this.name,
+          message: this.message
+        })
       }
+    },
+    postData (data) {
+      this.axios
+        .post(this.endpoint, data)
+        .then(() => {
+          this.sentMessage = true
+          this.name = ''
+          this.phone = ''
+          this.adult = 0
+          this.child = 0
+          this.message = ''
+          this.$emit('submittedContent', true)
+        })
+        .catch(error => (console.log(error)))
     }
   }
 }
