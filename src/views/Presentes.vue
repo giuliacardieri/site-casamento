@@ -1,6 +1,6 @@
 <template>
   <main>
-    <Hero title='Lista de Presentes' image='figueira' />
+    <Hero title='Lista de Presentes' image='presentes' />
     <VSection>
       <h2>Lista de Presentes 🎁</h2>
       <p>
@@ -8,7 +8,7 @@
         Por esse motivo, decidimos não fazer lista de presentes em nenhum loja específica. 🚛
       </p>
       <p>
-        Criamos uma lista de presentes com items que vamos precisar comprar no Canadá para montar nosso apartamento.
+        Criamos uma lista de presentes com itens que vamos precisar comprar no Canadá para montar nosso apartamento.
         Se você quiser, pode escolher um desses itens e fazer um PIX para ajudar com nossa nova vida Canadense! 🇨🇦
       </p>
       <p>

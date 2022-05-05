@@ -1,16 +1,16 @@
 <template>
   <main>
-    <Hero title='Confirme Sua Presenca' image='figueira' />
+    <Hero title='Confirme Sua Presenca' image='foto-fundo' />
     <VSection>
       <h2>Confirmação de Presença ✅</h2>
       <p>
-        O grande dia está chegando, e está na hora de você confirmar (ou não) sua presença.
+        O grande dia está chegando, e está na hora de você confirmar (ou não) sua presença. 👀
       </p>
       <p>
-        Se você não puder vir, entendemos. Adorariámos que você estivesse conosco, mas sabemos que viajar para Sorocaba pode não ser tão simples, ou que outros compromissos também acontecem. Esperamos te ver em breve!
+        Se você não puder vir, entendemos. Adorariámos que você estivesse conosco, mas sabemos que viajar para Sorocaba pode não ser tão simples, ou que outros compromissos também acontecem. Esperamos te ver em breve! 😁
       </p>
       <p>
-        Se você pode vir, ficamos super felizes! Por favor preencha o formulário abaixo com seus dados e também com a quantidade de adultos e crianças que vão vir com vocês. É <strong>muito importante que você nos responda até o dia 2/6</strong> (também conhecido como aniversário da Giulia).
+        Se você pode vir, ficamos super felizes! Por favor preencha o formulário abaixo com seus dados e também com a quantidade de adultos e crianças que vão vir com vocês. É <strong>muito importante que você nos responda até o dia 2/6</strong> (também conhecido como aniversário da Giulia). 🥳
       </p>
     </VSection>
     <VSection isPink>

@@ -19,7 +19,7 @@
         </li>
         <li class="main-nav__item">
           <router-link to="confirmacao-de-presenca" class="main-nav__link link-no-inherit">
-            Confirmação de Presença
+            Confirme Sua Presença
           </router-link>
         </li>
         <li class="main-nav__item">

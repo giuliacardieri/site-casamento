@@ -37,6 +37,10 @@
           já está disponível, que tal nos ajudar a montar nosso novo lar no
           Canadá?
         </li>
+        <li>
+          Já está na hora de
+          <router-link to="/confirmacao-de-presenca">confirmar sua presença</router-link>.
+        </li>
       </ol>
       <p>Esperamos vocês dia 9 de julho!</p>
       <p>Um abraço,</p>
