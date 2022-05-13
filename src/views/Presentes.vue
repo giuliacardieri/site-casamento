@@ -4,15 +4,11 @@
     <VSection>
       <h2>Lista de Presentes 🎁</h2>
       <p>
-        Decidimos não fazer lista de presentes em nenhum loja específica, pois
-        preferimos presentes relacionados a nossa Lua de Mel. ✈️ Se você quiser,
-        pode escolher um desses itens e fazer um PIX para ajudar com nossa
-        viagem para Itália! 🇮🇹
+        Decidimos não fazer lista de presentes em nenhum loja específica, pois preferimos presentes relacionados a nossa Lua de Mel. ✈️
       </p>
+      <p>Se você quiser, pode escolher um desses itens e fazer um PIX para ajudar com nossa viagem para Itália! 🇮🇹</p>
       <p>
-        Lembrando que qualquer presente é bem-vindo, mas não se sinta obrigado a
-        nos presentear. Já estamos felizes com sua presença nesse dia tão
-        importante. 🤵👰
+        Lembrando que qualquer presente é bem-vindo, mas não se sinta obrigado a nos presentear. Já estamos felizes com sua presença nesse dia tão importante. 🤵👰
       </p>
     </VSection>
     <Carrinho @updatedItem="showModal" />
