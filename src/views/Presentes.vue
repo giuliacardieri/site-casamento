@@ -4,7 +4,7 @@
     <VSection>
       <h2>Lista de Presentes 🎁</h2>
       <p>
-        Decidimos não fazer lista de presentes em nenhum loja específica, pois preferimos presentes relacionados a nossa Lua de Mel. ✈️
+        Decidimos não fazer lista de presentes em nenhum loja específica, e focar um pouco na nossa lua de mel ✈️
       </p>
       <p>Se você quiser, pode escolher um desses itens e fazer um PIX para ajudar com nossa viagem para Itália! 🇮🇹</p>
       <p>
