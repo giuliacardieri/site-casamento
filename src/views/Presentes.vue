@@ -6,7 +6,7 @@
       <p>
         Decidimos não fazer lista de presentes em nenhum loja específica, e focar um pouco na nossa lua de mel ✈️
       </p>
-      <p>Se você quiser, pode escolher um desses itens e fazer um PIX para ajudar com nossa viagem para Itália! 🇮🇹</p>
+      <p>Se você quiser, pode escolher um desses itens e fazer um PIX para nos presentear com alguns itens de casa ou ajudar com nossa viagem para Itália! 🇮🇹</p>
       <p>
         Lembrando que qualquer presente é bem-vindo, mas não se sinta obrigado a nos presentear. Já estamos felizes com sua presença nesse dia tão importante. 🤵👰
       </p>
