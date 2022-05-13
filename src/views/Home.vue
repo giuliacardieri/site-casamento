@@ -34,12 +34,13 @@
         <li>
           A
           <router-link to="/lista-de-presentes">lista de presentes</router-link>
-          já está disponível, que tal nos ajudar a montar nosso novo lar no
-          Canadá?
+          já está disponível, que tal colaborar na nossa viagem de lua de mel?
         </li>
         <li>
           Já está na hora de
-          <router-link to="/confirmacao-de-presenca">confirmar sua presença</router-link>.
+          <router-link to="/confirmacao-de-presenca"
+            >confirmar sua presença</router-link
+          >.
         </li>
       </ol>
       <p>Esperamos vocês dia 9 de julho!</p>

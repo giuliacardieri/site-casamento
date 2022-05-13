@@ -172,7 +172,7 @@ export default {
 
   .main-nav__link {
     border-bottom: 1px dotted var(--bordo);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .main-nav__button--open {

@@ -8,58 +8,18 @@
     "link": ""
   },
   {
-    "nome": "Conjunto de 4 copos IVRIG",
-    "categoria": "Cozinha",
-    "foto": "copo-6.png",
-    "valor": "R$49,00",
-    "valorCAD": "$13,00",
-    "link": "https://www.ikea.com/ca/en/p/ivrig-glass-clear-glass-50258323/"
-  },
-  {
-    "nome": "Conjunto de 4 copos POKAL",
-    "categoria": "Cozinha",
-    "foto": "copo-4.png",
-    "valor": "R$49,00",
-    "valorCAD": "$13,00",
-    "link": "https://www.ikea.com/ca/en/p/pokal-glass-clear-glass-10270478/"
-  },
-  {
-    "nome": "Conjunto pratos de jantar, sobremesa e tigelas",
-    "categoria": "Cozinha",
-    "foto": "conjunto-pratos.png",
-    "valor": "R$188,00",
-    "valorCAD": "$50,00",
-    "link": "https://www.ikea.com/ca/en/p/faergklar-24-piece-dinnerware-set-matte-light-pink-30478222/#content"
-  },
-  {
-    "nome": "Conjunto utensílios de cozinha de metal",
-    "categoria": "Cozinha",
-    "foto": "kit-metal-utensilios.png",
-    "valor": "R$38,00",
-    "valorCAD": "$10,00",
-    "link": "https://www.ikea.com/ca/en/p/grunka-4-piece-kitchen-utensil-set-stainless-steel-30083334/"
-  },
-  {
-    "nome": "Garrafa filtro de água",
-    "categoria": "Cozinha",
-    "foto": "brita.png",
-    "valor": "R$143,20",
-    "valorCAD": "$38,00",
-    "link": "https://www.bedbathandbeyond.ca/store/product/brita-10-cup-grand-pitcher/3300858?brandId=21"
-  },
-  {
     "nome": "Jogo de Talheres Góticos",
     "categoria": "Cozinha",
     "foto": "jogo-de-talheres.png",
-    "valor": "R$264,00",
+    "valor": "R$260,00",
     "valorCAD": "$70,00",
     "link": "https://www.ikea.com/ca/en/p/tillagd-20-piece-cutlery-set-black-40360830/"
   },
   {
-    "nome": "Jogo de tábuas de corte Marca OXO",
+    "nome": "Jogo de tábuas de corte",
     "categoria": "Cozinha",
     "foto": "tabuas.png",
-    "valor": "R$252,50",
+    "valor": "R$150,00",
     "valorCAD": "$67,00",
     "link": "https://www.bedbathandbeyond.ca/store/product/oxo-good-grips-3-piece-everyday-cutting-board-set/5398736?categoryId=25616&skuId="
   },
@@ -67,7 +27,7 @@
     "nome": "Tigelonas de aço para cozinhar",
     "categoria": "Cozinha",
     "foto": "tigelonas.png",
-    "valor": "R$358,00",
+    "valor": "R$300,00",
     "valorCAD": "$95,00",
     "link": "https://www.bedbathandbeyond.ca/store/product/oxo-3-piece-stainless-steel-mixing-bowl-set/5364852?categoryId=25447&skuId="
   },
@@ -75,17 +35,9 @@
     "nome": "Tigelas de plástico",
     "categoria": "Cozinha",
     "foto": "tigelas.png",
-    "valor": "R$94,00",
+    "valor": "R$90,00",
     "valorCAD": "$25,00",
     "link": "https://www.bedbathandbeyond.ca/store/product/simply-essential-3-piece-melamine-bowls-set/5555546?categoryId=25447&skuId="
-  },
-  {
-    "nome": "Copo medidor de vidro",
-    "categoria": "Cozinha",
-    "foto": "medidor.png",
-    "valor": "R$45,00",
-    "valorCAD": "$12,00",
-    "link": "https://www.bedbathandbeyond.ca/store/product/pyrex-prepware-glass-measuring-cup/5215256?categoryId=25617&skuId="
   },
   {
     "nome": "Conjunto com 10 potes de vidro",
@@ -96,44 +48,12 @@
     "link": "https://www.bedbathandbeyond.ca/store/product/simply-essential-10-piece-glass-food-storage-set-in-grey/5602711?strategy=pdp_4star"
   },
   {
-    "nome": "Escorredor de louça",
-    "categoria": "Cozinha",
-    "foto": "escorredor.png",
-    "valor": "R$86,67",
-    "valorCAD": "$23,00",
-    "link": "https://www.ikea.com/ca/en/p/rinnig-kitchen-ut-rck-plate-hldr-dsh-drnr-s79323709/"
-  },
-  {
-    "nome": "Kit mixer",
-    "categoria": "Cozinha",
-    "foto": "mixer.png",
-    "valor": "R$226,10",
-    "valorCAD": "$60,00",
-    "link": "https://www.amazon.ca/CUISINART-SmartStick-2-Speed-Blender-Attachment/dp/B018IQG920/ref=sr_1_6?crid=37EK107BQR1X3&keywords=hand+blender&qid=1649818757&sprefix=hand+blende%2Caps%2C346&sr=8-6"
-  },
-  {
-    "nome": "Facas tramontina do brasil",
-    "categoria": "Cozinha",
-    "foto": "facas.png",
-    "valor": "R$120,00",
-    "valorCAD": "",
-    "link": ""
-  },
-  {
     "nome": "Mantegueira",
     "categoria": "Cozinha",
     "foto": "mantegueira.png",
     "valor": "R$76,00",
     "valorCAD": "-",
     "link": "https://www.elo7.com.br/manteigueira-branca-poa-colorido/dp/94CDF5?elo7_source=google_shop&elo7_medium=cpc&elo7_campaign=Shopping-google_shop-cpc-Shopping-Casa_e_Decor_Categorizada-Smart&elo7_content=Casa_e_Decor_Categorizada-Smart&gclid=Cj0KCQjwxtSSBhDYARIsAEn0thS-dDuCLwMAE0-VHZjZncidssNuXywM9dgPKK0rvU0afBuakk63oLYaAo65EALw_wcB"
-  },
-  {
-    "nome": "Air Fryer",
-    "categoria": "Eletrodomésticos",
-    "foto": "airfryer.png",
-    "valor": "R$400,00",
-    "valorCAD": "$151,00",
-    "link": "https://www.bestbuy.ca/en-ca/product/ninja-air-fryer-3-79l-black/14611017?source=collection&adSlot=1"
   },
   {
     "nome": "Aspirador de pó",
@@ -144,26 +64,10 @@
     "link": "https://www.bedbathandbeyond.ca/store/product/bissell-crosswave-all-in-one-multi-surface-cleaner-in-white-silver/1061521391?keyword=vacuum&skuId="
   },
   {
-    "nome": "Jantar em São Paulo",
-    "categoria": "Lua de Mel",
-    "foto": "jantar-sp.jpeg",
-    "valor": "R$200,00",
-    "valorCAD": "-",
-    "link": ""
-  },
-  {
-    "nome": "Ajuda para hotel/airbnb em São Paulo",
-    "categoria": "Lua de Mel",
-    "foto": "airbnb-sp.jpeg",
-    "valor": "R$350,00",
-    "valorCAD": "-",
-    "link": ""
-  },
-  {
     "nome": "Caixa de areia Mila",
     "categoria": "Pets",
     "foto": "caixa-mila.jpg",
-    "valor": "R$260,00",
+    "valor": "R$90,00",
     "valorCAD": "$71,00",
     "link": "https://www.amazon.ca/HelloMiao-Enclosed-Deodorant-Plastic-Foldable/dp/B08V1D7FQZ/ref=sr_1_8?keywords=cat%2Blitter%2Bbox&qid=1649209110&sprefix=cat%2Blitter%2Caps%2C318&sr=8-8&th=1"
   },
@@ -178,26 +82,10 @@
   {
     "nome": "Jogo de Lençol",
     "categoria": "Quarto",
-    "foto": "lencol.png",
+    "foto": "lencol.jpeg",
     "valor": "R$600,00",
     "valorCAD": "$174,00",
     "link": "https://www.bedbathandbeyond.ca/store/product/therapedic-sleeprx-400-thread-count-sheet-set/5558745?categoryId=25769"
-  },
-  {
-    "nome": "Edredom",
-    "categoria": "Quarto",
-    "foto": "edredon.png",
-    "valor": "R$150,00",
-    "valorCAD": "$40,00",
-    "link": "https://www.ikea.com/ca/en/p/smasporre-duvet-light-warm-00457018/"
-  },
-  {
-    "nome": "Capa de edredom",
-    "categoria": "Quarto",
-    "foto": "jogo-lencol.png",
-    "valor": "R$113,00",
-    "valorCAD": "$30,00",
-    "link": "https://www.ikea.com/ca/en/p/aengslilja-duvet-cover-and-pillowcase-s-gray-90318645/"
   },
   {
     "nome": "Espelho de corpo",
@@ -214,14 +102,6 @@
     "valor": "R$370,00",
     "valorCAD": "$100,00",
     "link": "https://www.ikea.com/ca/en/p/hemnes-2-drawer-chest-white-stain-80242627/"
-  },
-  {
-    "nome": "Quatro Travesseiros",
-    "categoria": "Quarto",
-    "foto": "travesseiro.png",
-    "valor": "R$270,00",
-    "valorCAD": "$72,00",
-    "link": "https://www.ikea.com/ca/en/p/skogsfraeken-pillow-high-60460541/"
   },
   {
     "nome": "Abajur de chão",
@@ -264,18 +144,10 @@
     "link": "https://www.ikea.com/ca/en/p/satsumas-plant-stand-bamboo-white-90258156/"
   },
   {
-    "nome": "Assadeira de pizza",
+    "nome": "Panela antiaderente Polishop",
     "categoria": "Cozinha",
-    "foto": "assadeira-pizza.png",
-    "valor": "R$30,00",
-    "valorCAD": "",
-    "link": ""
-  },
-  {
-    "nome": "Assadeira de bolo",
-    "categoria": "Cozinha",
-    "foto": "assadeira-bolo.png",
-    "valor": "R$61,00",
+    "foto": "panela-polishop.png",
+    "valor": "R$190,00",
     "valorCAD": "",
     "link": ""
   },
@@ -296,38 +168,6 @@
     "link": ""
   },
   {
-    "nome": "Panela do brigadeiro",
-    "categoria": "Cozinha",
-    "foto": "panela-brigadeiro.png",
-    "valor": "R$150,00",
-    "valorCAD": "",
-    "link": ""
-  },
-  {
-    "nome": "Panela do macarrão",
-    "categoria": "Cozinha",
-    "foto": "panela-macarrao.png",
-    "valor": "R$150,00",
-    "valorCAD": "",
-    "link": ""
-  },
-  {
-    "nome": "Panela do brócolis",
-    "categoria": "Cozinha",
-    "foto": "panela-brocolis.png",
-    "valor": "R$96,00",
-    "valorCAD": "",
-    "link": ""
-  },
-  {
-    "nome": "Panela de pipoca",
-    "categoria": "Cozinha",
-    "foto": "panela-pipoca.png",
-    "valor": "R$155,00",
-    "valorCAD": "",
-    "link": ""
-  },
-  {
     "nome": "Taças",
     "categoria": "Cozinha",
     "foto": "tacas.png",
@@ -344,14 +184,6 @@
     "link": ""
   },
   {
-    "nome": "Ajuda para comprar TV",
-    "categoria": "Sala",
-    "foto": "tv.png",
-    "valor": "R$500,00",
-    "valorCAD": "",
-    "link": ""
-  },
-  {
     "nome": "Abajur de quarto",
     "categoria": "Quarto",
     "foto": "abajur-quarto.png",
@@ -360,10 +192,66 @@
     "link": ""
   },
   {
-    "nome": "Jantar de boas-vindas em Halifax",
+    "nome": "Jantar de boas-vindas em Roma",
     "categoria": "Lua de Mel",
     "foto": "jantar-halifax.jpeg",
     "valor": "R$250,00",
+    "valorCAD": "",
+    "link": ""
+  },
+  {
+    "nome": "Ajuda para hotel na Itália",
+    "categoria": "Lua de Mel",
+    "foto": "hotel.jpg",
+    "valor": "R$300,00",
+    "valorCAD": "",
+    "link": ""
+  },
+  {
+    "nome": "Café da manhã na Itália",
+    "categoria": "Lua de Mel",
+    "foto": "cafe.jpeg",
+    "valor": "R$100,00",
+    "valorCAD": "",
+    "link": ""
+  },
+  {
+    "nome": "Passeio ao Coliseu",
+    "categoria": "Lua de Mel",
+    "foto": "coliseu.jpg",
+    "valor": "R$260,00",
+    "valorCAD": "",
+    "link": ""
+  },
+  {
+    "nome": "Ajuda para passagens de trem na Itália",
+    "categoria": "Lua de Mel",
+    "foto": "trem.png",
+    "valor": "R$200,00",
+    "valorCAD": "",
+    "link": ""
+  },
+  {
+    "nome": "Visita a Pompéia na Itália",
+    "categoria": "Lua de Mel",
+    "foto": "pompeia.jpg",
+    "valor": "R$170,00",
+    "valorCAD": "",
+    "link": ""
+  },
+  {
+    "nome": "Gelato na Itália",
+    "categoria": "Lua de Mel",
+    "foto": "sorvete.png",
+    "valor": "R$50,00",
+    "valorCAD": "",
+    "link": ""
+  },
+  {
+    "nome": "Jantar pizza napolitana em Napoli",
+    "categoria": "Lua de Mel",
+    "foto": "pizza.jpeg",
+    "valor": "R$80,00",
     "valorCAD": "",
     "link": ""
   },

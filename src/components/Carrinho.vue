@@ -101,6 +101,14 @@ export default {
 }
 
 @media (max-width: 991px) {
+  .carrinho {
+    padding: 3rem;
+  }
+
+  .carrinho__container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
   .countdown {
     padding: 2rem;
   }

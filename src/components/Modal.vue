@@ -55,8 +55,8 @@ export default {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
-  height: 100vh;
   justify-content: center;
+  height: 100vh;
   left: 0;
   position: fixed;
   top: 0;
@@ -67,7 +67,7 @@ export default {
 .modal__container {
   background-color: var(--branco);
   border-radius: 10px;
-  max-width: 60vw;
+  max-width: 90vw;
   padding: 2rem;
 }
 
@@ -97,5 +97,18 @@ export default {
   margin: 1.5rem;
   padding: 1rem 1rem .25rem;
   text-align: center;
+}
+
+@media (max-width: 991px) {
+  .modal {
+    padding-top: 2rem;
+    overflow-y: scroll;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal__container {
+    max-width: 60vw;
+  }
 }
 </style>
