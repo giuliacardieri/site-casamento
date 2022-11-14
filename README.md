@@ -3,6 +3,9 @@ Developed with Vue.js and CSS
 
 Available at: https://romantic-visvesvaraya-5dcba9.netlify.app/
 
+## About back-end
+The back-end will stop working on December 2021 due to Heroku's end of free plan :(
+
 ## Project setup
 ```
 yarn install
