@@ -1,4 +1,7 @@
-# casamento
+# Wedding website
+Developed with Vue.js and CSS
+
+Available at: https://romantic-visvesvaraya-5dcba9.netlify.app/
 
 ## Project setup
 ```
